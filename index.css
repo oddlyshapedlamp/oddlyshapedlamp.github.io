@@ -1,0 +1,88 @@
+.title{
+  font-family: "Trebuchet MS";
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px 0px 0px 5px;
+  border: 10px solid #1a2945;
+  /*This is the style for the title*/
+}
+.tableTitle{
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  /*This is the style for the title above the table*/  
+}
+.elementStyle{
+  background-color: #DEDEDE;
+  /*This particular thing is for the background*/
+  /*This class encompasses everything after the table, all headings and text*/
+}
+  .elementStyle h3 {
+    background-color: #1A2945 ;
+    color: #EFEFEF ;
+    text-align:center;
+    font-weight: bold;
+    font-family:"Arial";
+    font-size: 34px;
+    /*This style is for the name of each each element - the header*/
+  }
+  .elementStyle h4 {
+    color: #102ff9;
+    text-align:center;
+    font-weight: bold;
+    font-size: 27px;
+    border: 2px solid #3c3e44;
+    /*This style is for the sub heading under each element - the syntax, examples, descriptions and appearence headers*/
+  }
+  .elementStyle h5{
+    text-align:center;
+    font-size:25px;
+    /*This style is for the one header that I show under the headers element*/
+  }
+  .elementStyle p{
+    color:#515171;
+    font-family:"Tahoma";
+    font-size: 20px;
+    text-align: left;
+    /*This style is for the the text under the headings I just mentioned*/
+  }
+.table{
+    border-collapse: collapse;
+    /*This class is for all of the styles in the table. This also collaspes the table borders*/
+  }
+  .table table{
+    border-collapse: collapse;
+    /*This style is for the large tables entireity*/
+  }
+  .table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color:#515171;
+    font-family:"Tahoma";
+    font-size: 20px;
+    text-align: center;
+    /*This style is for  the column headers in the table*/
+  }
+  .table th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #1A2945 ;
+    color: #EFEFEF ;
+    font-weight: bold;
+    font-family:"Arial";
+    font-size: 34px;
+    /*This style is for the rows of the table*/
+  }
+a{
+  font-size:24px;
+  /*This style is for making links text bigger. In practice this only affects the names of the elements in the table, and makes them bigger.*/
+}
+.w3schoolslinks{
+  font-size: 28px;
+  padding: 5px;
+  border: 2px solid #632249;
+}
+/*This style is for the w3 school links in the bottom of each element*/
