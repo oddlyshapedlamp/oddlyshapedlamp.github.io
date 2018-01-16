@@ -1,0 +1,7 @@
+        <div>
+       <img src='https://oddlyshapedlamp.github.io/ResponsiveWebPage/images/bigpic3.jpg'
+          srcset='https://oddlyshapedlamp.github.io/ResponsiveWebPage/images/bigpic1.jpg 4000w,
+                  https://oddlyshapedlamp.github.io/ResponsiveWebPage/images/bigpic0.jpg 3504w,
+                  https://oddlyshapedlamp.github.io/ResponsiveWebPage/images/bigpic2.jpg 2000w,
+                  https://oddlyshapedlamp.github.io/ResponsiveWebPage/images/bigpic3.jpg 1000w'>
+     </div>
